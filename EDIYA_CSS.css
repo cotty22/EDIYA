@@ -1,3 +1,29 @@
+*{
+    margin:0px;
+}
+
+body{
+    font-family:'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif;
+}
 header{
     height: 170px;
+    border-bottom: 1px solid #ddd;
+}
+.top_menu{
+    height: 50px;
+    background-color: #243c84;
+    display: flex;
+}
+.menu_1{
+    padding:0 20px;
+    display: flex;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+
+}
+p{
+    font-size: 13px;
+    color:black;
+    font-weight: 500;
 }
