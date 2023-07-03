@@ -1,29 +1,96 @@
-*{
-    margin:0px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
 
-body{
-    font-family:'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif;
-}
-header{
-    height: 170px;
-    border-bottom: 1px solid #ddd;
-}
-.top_menu{
-    height: 50px;
-    background-color: #243c84;
-    display: flex;
-}
-.menu_1{
-    padding:0 20px;
-    display: flex;
-    background-color: white;
-    height: 50px;
-    align-items: center;
+  * {
+      margin: 0px;
+      box-sizing: content-box;
+  }
 
-}
-p{
-    font-size: 13px;
-    color:black;
-    font-weight: 500;
-}
+  body {
+      font-family: 'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif;
+  }
+
+  header {
+      height: 170px;
+      border-bottom: 1px solid #ddd;
+  }
+
+  a {
+      text-decoration: none;
+      border-bottom: none;
+  }
+
+  .mainmenu,
+  .mainmenu2 {
+      display: flex;
+      align-items: center;
+      height: 50px;
+  }
+
+  .top_menu {
+      height: 50px;
+      background-color: #243c84;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .menu_1 {
+      padding: 0 20px;
+      display: flex;
+      background-color: white;
+      height: 50px;
+      align-items: center;
+
+  }
+
+  .menu_2,
+  .menu_3 {
+      display: flex;
+      padding-left: 20px;
+      height: 50px;
+      align-items: center;
+  }
+
+  .menu_4,
+  .menu_5,
+  .menu_6,
+  .menu_7,
+  .menu_8 {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      padding-right: 20px;
+  }
+
+  #menu_font {
+      font-size: 13px;
+      color: #1d326c;
+      font-weight: 900;
+      font-family: 'Noto Sans KR';
+      line-height: 1.7em;
+  }
+
+  #menu_font2,
+  #menu_font3,
+  #menu_font4,
+  #menu_font5,
+  #menu_font6,
+  #menu_font7,
+  #menu_font8 {
+      font-size: 13px;
+      color: #fff;
+      font-weight: 900;
+      font-family: 'Noto Sans KR';
+      line-height: 1.7em;
+  }
+
+  .menu_2_img,
+  .menu_3_img,
+  .menu_4_img,
+  .menu_5_img,
+  .menu_6_img,
+  .menu_7_img {
+      height: 10px;
+      width: 1px;
+      margin-left: 19px;
+      background: url(https://www.ediya.com/images/common/util_line.gif) no-repeat;
+  }
