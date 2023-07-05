@@ -2,11 +2,11 @@
 
   * {
       margin: 0px;
-      box-sizing: content-box;
   }
 
   body {
       font-family: 'Noto Sans KR', '나눔고딕', NanumGothic, '맑은 고딕', MalgunGothic, '돋움', Dotum, sans-serif;
+      overflow: auto;
   }
 
   header {
@@ -183,3 +183,36 @@
       color: #202023;
 
   }
+
+  .main_imgbox {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      height: 620px;
+  }
+
+  .main_img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -960px;
+}
+.img_arrow1{
+    position: absolute;
+    top:50%;
+    margin-top:-16px;
+    outline:0;
+    width: 24px;
+    height: 45px;
+    margin-left:10px;
+}
+.img_arrow2{
+    position: relative;
+    float: right;
+    top:50%;
+    margin-top:-16px;
+    outline:0;
+    width: 24px;
+    height: 45px;
+    margin-right:10px;
+}
