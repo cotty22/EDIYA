@@ -31,6 +31,7 @@
       background-color: #243c84;
       display: flex;
       justify-content: space-between;
+      width: 100%;
   }
 
   .menu_1 {
@@ -136,4 +137,49 @@
       display: flex;
       align-items: center;
       justify-content: center;
+  }
+
+  .logo {
+      display: inline-block;
+      position: relative;
+      top: 30px;
+      left: 50%;
+      margin-left: -101px;
+      clear: both;
+  }
+
+  .logo_menu {
+      display: flex;
+      position: absolute;
+      top: 125px;
+      left: 50%;
+      width: auto;
+      margin-left: -514px;
+      font-family: 'Nunito Sans', sans-serif;
+      padding: 0 40px;
+  }
+
+  .logo_menu1 {
+      padding-right: 40px;
+      color: #202023;
+  }
+
+  .logo_menu2,
+  .logo_menu3,
+  .logo_menu4,
+  .logo_menu5,
+  .logo_menu6,
+  .logo_menu7 {
+      padding: 0 40px;
+  }
+
+  .logo_text1,
+  .logo_text2,
+  .logo_text3,
+  .logo_text4,
+  .logo_text5,
+  .logo_text6,
+  .logo_text7 {
+      color: #202023;
+
   }
