@@ -105,7 +105,6 @@
       width: 1px;
       margin-left: 17px;
       background: url(https://www.ediya.com/images/common/util_line.gif) no-repeat;
-      /* padding-left:1px; */
   }
 
   .blog_img {
@@ -196,23 +195,100 @@
       top: 0;
       left: 50%;
       margin-left: -960px;
-}
-.img_arrow1{
-    position: absolute;
-    top:50%;
-    margin-top:-16px;
-    outline:0;
-    width: 24px;
-    height: 45px;
-    margin-left:10px;
-}
-.img_arrow2{
-    position: relative;
-    float: right;
-    top:50%;
-    margin-top:-16px;
-    outline:0;
-    width: 24px;
-    height: 45px;
-    margin-right:10px;
-}
+  }
+
+  .img_arrow1 {
+      position: absolute;
+      top: 50%;
+      margin-top: -16px;
+      outline: 0;
+      width: 24px;
+      height: 45px;
+      margin-left: 10px;
+  }
+
+  .img_arrow2 {
+      position: relative;
+      float: right;
+      top: 50%;
+      margin-top: -16px;
+      outline: 0;
+      width: 24px;
+      height: 45px;
+      margin-right: 10px;
+  }
+
+  .main_imgbox2 {
+      background: url(https://ediya.com/images/main/main_beanist_bg.gif) #fce1a6 center no-repeat;
+      background-size: cover;
+      padding: 112px 0 80px 0;
+
+  }
+
+  .main_text1 {
+      font-size: 42px;
+      line-height: 1.1em;
+      text-align: center;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 100;
+      color: #3c3c3c;
+  }
+
+  .main_text1::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 1px;
+      margin: 51px auto 0;
+      background-color: #3c3c3c;
+  }
+
+  h2 > em {
+      font-family: 'Nunito Sans', sans-serif;     
+      font-weight: 900;
+      color: #90470c;
+  }
+
+  .main_text2 {
+      font-size: 26px;
+      margin: 53px 0 60px;
+      font-family: 'Noto Sans SC', sans-serif;
+      text-align: center;
+      line-height: 1.4em;
+      color: #3c3c3c;
+      font-weight: 300;
+  }
+
+  em {
+      font-style: normal;
+      font-weight: bold;
+      font-weight: 500;
+  }
+  .coffee_img{
+    display: flex;
+    max-width: 900px;
+    margin:auto;
+  }
+  .main_img1,.main_img2,.main_img3{
+    /* display: block; */
+    width: 29%;
+    margin: 0 2%;
+  }
+  .coffee_text1{
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top:20px;
+    font-size:20px;
+    font-weight: 900;
+    line-height: 1.2em;
+    color:#693a13;
+    text-align: center;
+  }
+  .coffee_text2{
+    font-size:15px;
+    color:#cc8e5d;
+    text-align: center;
+  }
+  .main_img1,.main_img2,.main_img3 > img{
+    padding-left:20px;
+  }
